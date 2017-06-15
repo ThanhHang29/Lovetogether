@@ -1,2 +1,2 @@
 # Lovetogether
-Chức năng : đếm ngày yêu, tạo kỷ niệm, chụp màn hình, cài hình nền.
+Description: counting date, screenshot, create memory, set home Screen
