@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/padding_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/add_memory"
+        android:textSize="20sp"
+        android:id="@id/tvTitle"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@id/edtNameMemory"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal|bottom"
+        android:hint="@string/name_memory"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        style="?android:attr/textAppearanceMedium"
+        android:background="@drawable/state_dialog_memory"
+        android:layout_height="@dimen/btn_height_normal" />
+    <TextView
+        android:layout_width="match_parent"
+        style="?android:attr/textAppearanceMedium"
+        android:id="@id/tvDateMemory"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal|bottom"
+        android:text="@string/date_memory"
+        android:background="@drawable/state_dialog_memory"
+        android:layout_height="@dimen/btn_height_normal" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@id/chooseImage"
+        android:background="@drawable/state_dialog_memory"
+        android:layout_height="@dimen/btn_height_normal">
+        <TextView
+            android:layout_width="wrap_content"
+            style="?android:attr/textAppearanceMedium"
+            android:id="@id/tvChooseImage"
+            android:layout_marginLeft="3dp"
+            android:lines="1"
+            android:maxLines="1"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal|bottom"
+            android:layout_marginStart="3dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:text="@string/choose_image"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_width="@dimen/text_day"
+            android:id="@id/image_memory"
+            android:visibility="invisible"
+            android:layout_marginTop="3dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="@dimen/btn_width"
+            android:id="@id/btn_ok"
+            android:background="@drawable/state_btn_yes"
+            android:textColor="@color/white"
+            android:text="@string/btn_ok"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_height="@dimen/btn_height" />
+        <TextView
+            android:layout_width="@dimen/btn_width"
+            android:id="@id/btn_no"
+            android:gravity="center"
+            android:background="@drawable/state_btn_yes"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:text="@string/btn_no"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="40dp"
+            android:textStyle="bold"
+            android:layout_height="@dimen/btn_height" />
+    </RelativeLayout>
+
+</LinearLayout>

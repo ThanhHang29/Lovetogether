@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/imgBackground"
+    android:background="@drawable/ic_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="@dimen/image_size"
+        android:text="numday"
+        android:background="@drawable/ic_loveday"
+        android:id="@id/tv_num_day"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/text_day"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="@dimen/image_size" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Chạm vào để mở khóa"
+        android:id="@id/tvUnlock"
+        android:layout_marginBottom="@dimen/padding_main"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_medium"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

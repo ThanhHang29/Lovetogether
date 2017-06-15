@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/bg6"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@id/name_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="dbfhsdbhf"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            style="@style/MyTextView"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_gravity="center_horizontal"
+                android:text="0"
+                android:id="@id/tv_num_day"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@drawable/ic_loveday"
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@id/date_love"
+                android:text="bhdfbdh"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="dbfhsdbhf"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:id="@id/name_right"
+            android:gravity="center|right"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

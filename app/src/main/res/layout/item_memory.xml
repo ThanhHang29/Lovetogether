@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/imgBackground"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/tvNameMemory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/text_nomarl"
+        android:textColor="@color/white"
+        android:text="@string/name_memory"/>
+
+    <TextView
+        android:id="@id/tvDateMemory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="22/3/201dddddddddddddddddddddddsdsdfdf0"
+        android:textSize="@dimen/text_nomarl"/>
+
+    <TextView
+        android:id="@id/tvDateCome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="Còn xx ngày"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_nomarl"/>
+
+</LinearLayout>

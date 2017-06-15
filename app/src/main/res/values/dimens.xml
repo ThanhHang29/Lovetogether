@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_actionbar_size">60dp</dimen>
+    <dimen name="size_icon_actionar">40dp</dimen>
+    <dimen name="image_size">180dp</dimen>
+    <dimen name="text_day">27dp</dimen>
+    <dimen name="text_medium">30dp</dimen>
+    <dimen name="avatar_size">100dp</dimen>
+    <dimen name="padding_main">20dp</dimen>
+    <dimen name="padding_dialog">40dp</dimen>
+    <dimen name="btn_width">100dp</dimen>
+    <dimen name="btn_height">40dp</dimen>
+    <dimen name="btn_width_normal">70dp</dimen>
+    <dimen name="btn_height_normal">50dp</dimen>
+    <dimen name="text_nomarl">25sp</dimen>
+    <dimen name="image_marign_top">100dp</dimen>
+    <dimen name="text_size_title">6sp</dimen>
+</resources>

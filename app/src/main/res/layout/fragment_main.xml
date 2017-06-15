@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/image_marign_top"
+        android:layout_height="@dimen/image_size">
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:id="@id/image_day"
+            android:background="@drawable/ic_loveday"
+            android:layout_centerInParent="true"
+            android:layout_height="@dimen/image_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:padding="3dp"
+            android:id="@id/tv_num_day"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/day"
+            android:id="@id/tvDay"
+            android:layout_below="@id/tv_num_day"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/padding_main"
+            android:layout_height="match_parent">
+            <com.ttth.lovetogether.views.CircleImageView
+                android:layout_width="@dimen/avatar_size"
+                android:id="@id/avatar_left"
+                android:scaleType="centerCrop"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/white"
+                app:civ_border_overlay="true"
+                app:civ_fill_color="@color/white"
+                android:src="@drawable/ic_loveday"
+                android:layout_height="@dimen/avatar_size"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@id/name_left"
+                android:text="@string/name_left"
+                style="@style/MyTextView"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/avatar_left"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/padding_main"
+            android:layout_height="match_parent">
+            <com.ttth.lovetogether.views.CircleImageView
+                android:layout_width="@dimen/avatar_size"
+                android:id="@id/avatar_right"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/white"
+                app:civ_border_overlay="true"
+                app:civ_fill_color="@color/white"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_loveday"
+                android:layout_height="@dimen/avatar_size" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@id/name_right"
+                android:text="@string/name_right"
+                style="@style/MyTextView"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/avatar_right"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

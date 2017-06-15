@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@id/imgBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="tên kỷ niệm"
+        android:id="@id/tvNameMemory"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_main"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="ngày"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@id/tvDateMemory"
+        android:layout_below="@id/tvNameMemory"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/padding_main"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="@dimen/btn_width"
+        android:id="@id/shareWithFB"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:layout_marginBottom="@dimen/padding_main"
+        android:layout_centerHorizontal="true"
+        android:layout_height="@dimen/btn_height" />
+
+</RelativeLayout>

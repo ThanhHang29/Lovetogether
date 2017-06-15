@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Love together</string>
+    <string name="add_memory">Add Memory</string>
+    <string name="block_screen">LockScreen</string>
+    <string name="btn_no">Cancel</string>
+    <string name="btn_ok">Ok</string>
+    <string name="change_avatar">Change avatar</string>
+    <string name="change_background">Change Background</string>
+    <string name="change_day">Change date love</string>
+    <string name="change_name">Change name</string>
+    <string name="choose_image">Choose image</string>
+    <string name="choose_other">Choose your device</string>
+    <string name="date_memory">current day</string>
+    <string name="delete_memory">Delete memory</string>
+    <string name="invalidate_pass">Confirm password</string>
+    <string name="message_delete">Do you want to delete memory ?</string>
+    <string name="must_choose">You must choose your image</string>
+    <string name="name_left">Janna</string>
+    <string name="name_memory">Name of memory</string>
+    <string name="name_right">Alex</string>
+    <string name="notification">Notification</string>
+    <string name="press_pass">Set password</string>
+    <string name="save_device">Save your device</string>
+    <string name="set_background">Set background of device</string>
+    <string name="set_old_pass">Confirm password</string>
+    <string name="set_pass">Set password</string>
+    <string name="set_pass_cancel">Delete</string>
+    <string name="set_pass_next">Next</string>
+    <string name="set_up">Setup</string>
+    <string name="share_fb">Share with your facebook</string>
+    <string name="sos">SOS</string>
+    <string name="take_screen">Take photo screen</string>
+    <string name="text_unlock">Touch your screen</string>
+    <string name="title_actionbar">Love day</string>
+    <string name="title_changeBackGround">Change background</string>
+    <string name="title_empty">Set name memory</string>
+    <string name="toast_edt_empty">Name is empty</string>
+    <string name="watch_image">Watch image</string>
+    <string name="day">days</string>
+    <string name="saved_image">Saved</string>
+</resources>

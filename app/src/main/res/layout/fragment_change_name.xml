@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/padding_dialog"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@id/tvTitle"
+        android:text="@string/change_name"
+        android:textColor="@color/white"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@id/edt_change_name"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal|bottom"
+        android:hint="Nhập tên"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        style="?android:attr/textAppearanceMedium"
+        android:background="@drawable/state_dialog_memory"
+        android:layout_height="@dimen/btn_width_normal" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="@dimen/btn_width"
+            android:id="@id/btn_ok"
+            android:background="@drawable/state_btn_yes"
+            android:textColor="@color/white"
+            android:text="@string/btn_ok"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_height="@dimen/btn_height" />
+        <TextView
+            android:layout_width="@dimen/btn_width"
+            android:id="@id/btn_no"
+            android:gravity="center"
+            android:background="@drawable/state_btn_yes"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:text="@string/btn_no"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="40dp"
+            android:textStyle="bold"
+            android:layout_height="@dimen/btn_height" />
+    </RelativeLayout>
+
+</LinearLayout>

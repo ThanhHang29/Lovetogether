@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/title_changeBackGround"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/padding_main"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@id/title_actionbar"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@id/recycleView"
+        android:layout_marginTop="@dimen/padding_main"
+        android:layout_below="@id/title_actionbar"
+        android:layout_above="@id/btnChooseImage"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@id/btnChooseImage"
+        android:text="@string/choose_other"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/padding_main"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/state_btn_yes"
+        android:layout_height="@dimen/btn_height_normal" />
+
+</RelativeLayout>
